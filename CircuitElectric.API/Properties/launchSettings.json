@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Filmes.API": {
+    "CircuitElectric.API": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

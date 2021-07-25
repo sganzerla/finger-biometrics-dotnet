@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filmes.API", "Filmes.API\Filmes.API.csproj", "{D8B46207-BE63-453C-90EA-CFD68CD97C03}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircuitElectric.API", "CircuitElectric.API\CircuitElectric.API.csproj", "{D8B46207-BE63-453C-90EA-CFD68CD97C03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
