@@ -32,12 +32,13 @@ namespace finger_biometrics_suprema
             this.buttonCapture = new System.Windows.Forms.Button();
             this.textBoxLogs = new System.Windows.Forms.TextBox();
             this.pictureBoxFinger = new System.Windows.Forms.PictureBox();
+            this.checkBoxCreatedWsqFile = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFinger)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonCapture
             // 
-            this.buttonCapture.Location = new System.Drawing.Point(449, 321);
+            this.buttonCapture.Location = new System.Drawing.Point(449, 311);
             this.buttonCapture.Name = "buttonCapture";
             this.buttonCapture.Size = new System.Drawing.Size(75, 23);
             this.buttonCapture.TabIndex = 0;
@@ -63,11 +64,22 @@ namespace finger_biometrics_suprema
             this.pictureBoxFinger.TabIndex = 2;
             this.pictureBoxFinger.TabStop = false;
             // 
+            // checkBoxDeleteWsq
+            // 
+            this.checkBoxCreatedWsqFile.AutoSize = true;
+            this.checkBoxCreatedWsqFile.Location = new System.Drawing.Point(449, 340);
+            this.checkBoxCreatedWsqFile.Name = "checkBoxDeleteWsq";
+            this.checkBoxCreatedWsqFile.Size = new System.Drawing.Size(98, 19);
+            this.checkBoxCreatedWsqFile.TabIndex = 3;
+            this.checkBoxCreatedWsqFile.Text = "Save New File";
+            this.checkBoxCreatedWsqFile.UseVisualStyleBackColor = true;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(585, 572);
+            this.Controls.Add(this.checkBoxCreatedWsqFile);
             this.Controls.Add(this.pictureBoxFinger);
             this.Controls.Add(this.textBoxLogs);
             this.Controls.Add(this.buttonCapture);
@@ -84,6 +96,7 @@ namespace finger_biometrics_suprema
         private System.Windows.Forms.Button buttonCapture;
         private System.Windows.Forms.TextBox textBoxLogs;
         private System.Windows.Forms.PictureBox pictureBoxFinger;
+        private System.Windows.Forms.CheckBox checkBoxCreatedWsqFile;
     }
 }
 

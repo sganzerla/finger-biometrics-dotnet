@@ -99,6 +99,12 @@ namespace finger_biometrics_suprema
                 SetLog("UFScanner ExtractEx: " + mStrError + "\r\n");
             }
 
+            GetWsqByFileNameCreated();
+        }
+
+        private void GetWsqByFileNameCreated()
+        {
+            UFS_STATUS ufsRes;
             var filename = $"{Guid.NewGuid()}.wsq";
             ufsRes = _scanner.SaveCaptureImageBufferToWSQ(filename, 1);
             if (ufsRes == UFS_STATUS.OK)
@@ -110,12 +116,16 @@ namespace finger_biometrics_suprema
                 _base64 = Convert.ToBase64String(reader.ReadBytes((int)fs.Length));
             }
 
+            DeletedNewFile(filename, checkBoxCreatedWsqFile.Checked);
+        }
+
+        private static void DeletedNewFile(string filename, bool noDelete)
+        {
+            if (noDelete) return;
 
             if (File.Exists(filename))
                 File.Delete(filename);
         }
-
-
 
         private void buttonCapture_Click(object sender, EventArgs e)
         {
