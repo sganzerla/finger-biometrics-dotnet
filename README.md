@@ -28,6 +28,15 @@ O presente projeto não necessita instalação do SDK da Suprema, uma vez que a 
 * cd finger-biometrics-suprema\
 * dotnet run
 
+## Como publicar
+
+* cd finger-biometrics-suprema\
+* dotnet publish -c Release -o dist --self-contained true -r win10-x64 /p:PublishSingleFile=true
+
+ou pelo script PowerShell
+
+* build.ps1
+
 ## Informações sobre o SDK Suprema
 
 * As 4 dlls utilizadas neste projeto e o link do SDK são da versão 3.9.1
