@@ -7,7 +7,7 @@ Projeto Windows Forms "scaffolding" para utilização do SDK Suprema (gratuito) 
 ## Pré-requisitos
 
 * Scanner (hardware) compatível com o SDK, [BioMini](https://www.suprema-id.com/pt/contents/detail.php?code=010107)
-* SDK Suprema link mantido pelo [Grupo Abion/Neoyama](https://drive.google.com/file/d/1I8Gg5RFjyDdOouqaW7Jx4GGFWN55X38A/view?usp=sharing)
+* Link para download [SDK Suprema 3.10.0](https://github.com/sganzerla/finger-biometrics-dotnet/blob/main/resources/DRIVER%20BIOMINI(v2.2.0).exe)
 * Driver do leitor biométrico (depende do modelo e do sistema operacional)
 * Runtime ou SDK .Net [superior ou igual a 3.1](https://dotnet.microsoft.com/download)
 
@@ -39,6 +39,6 @@ ou pelo script PowerShell
 
 ## Informações sobre o SDK Suprema
 
-* As 4 dlls utilizadas neste projeto e o link do SDK são da versão 3.9.1
+* As 4 dlls utilizadas neste projeto e o link do SDK são da versão 3.10.0
 * Instalando o SDK obtém-se um projeto com muito mais funcionalidades que este, porém com .Net Framework.
 * Há um manual documentando e mantido pelo fabricante sobre o uso das dlls disponível [aqui](resources/BioMiniSDK_for_Windows_3.9.1_Reference_Manual.pdf)
