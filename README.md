@@ -7,7 +7,7 @@ Projeto Windows Forms "scaffolding" para utilização do SDK Suprema (gratuito) 
 ## Pré-requisitos
 
 * Scanner (hardware) compatível com o SDK, [BioMini](https://www.suprema-id.com/pt/contents/detail.php?code=010107)
-* Link para download [SDK Suprema 3.10.0](https://drive.google.com/file/d/1KoeTOaf4aANv1kzSXyPuOxbsyuFIW3-e/view?usp=sharing)
+* Link para download [SDK Suprema 3.10.0](https://drive.google.com/file/d/1oyrFZDBAjLBnGTeoHXbtwIO92pLib1L_/view?usp=sharing)
 * Driver do leitor biométrico (depende do modelo e do sistema operacional)
 * Runtime ou SDK .Net [superior ou igual a 3.1](https://dotnet.microsoft.com/download)
 
